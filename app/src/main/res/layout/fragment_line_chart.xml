@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="26sp"
+                android:layout_margin="16dp"
+                android:text="@string/line_chart_info"/>
+
+            <info.smartinsole.sqlite.anan.AAChartCore.AAChartCoreLib.AAChartCreator.AAChartView
+                android:id="@+id/AAChartViewAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <info.smartinsole.sqlite.anan.AAChartCore.AAChartCoreLib.AAChartCreator.AAChartView
+                android:id="@+id/AAChartViewGyro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <info.smartinsole.sqlite.anan.AAChartCore.AAChartCoreLib.AAChartCreator.AAChartView
+                android:id="@+id/AAChartViewMagn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:text="@string/load">
+            </Button>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

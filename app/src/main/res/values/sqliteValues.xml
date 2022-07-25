@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Sole Measurement Database Model-->
+    <string name="TABLE_SoleMeasurements">SoleMeasurements</string>
+    <string name="COL_SM_ID">_id</string>
+    <string name="COL_SM_UserID">UserId</string>
+    <string name="COL_SM_Sole">Sole</string>
+    <string name="COL_SM_TimeStamp">Timestamp</string>
+    <string name="COL_SM_SyncStatus">SyncStatus</string>
+
+    <string name="COL_SM_AcclXAxis">AcclXAxis</string>
+    <string name="COL_SM_AcclYAxis">AcclYAxis</string>
+    <string name="COL_SM_AcclZAxis">AcclZAxis</string>
+
+    <string name="COL_SM_GyroRoll">GyroRoll</string>
+    <string name="COL_SM_GyroPitch">GyroPitch</string>
+    <string name="COL_SM_GyroYaw">GyroYaw</string>
+
+    <string name="COL_SM_MagnXAxis">MagnXAxis</string>
+    <string name="COL_SM_MagnYAxis">MagnYAxis</string>
+    <string name="COL_SM_MagnZAxis">MagnZAxis</string>
+
+    <string name="COL_SM_Pe1">Pe1</string>
+    <string name="COL_SM_Pe2">Pe2</string>
+    <string name="COL_SM_Pe3">Pe3</string>
+    <string name="COL_SM_Pe4">Pe4</string>
+    <string name="COL_SM_Pe5">Pe5</string>
+    <string name="COL_SM_Pe6">Pe6</string>
+    <string name="COL_SM_Pe7">Pe7</string>
+    <string name="COL_SM_Pe8">Pe8</string>
+    <string name="COL_SM_Pe9">Pe9</string>
+    <string name="COL_SM_Pe10">Pe10</string>
+    <string name="COL_SM_Pe11">Pe11</string>
+    <string name="COL_SM_Pe12">Pe12</string>
+    <string name="COL_SM_Pe13">Pe13</string>
+    <string name="COL_SM_Pe14">Pe14</string>
+    <string name="COL_SM_Pe15">Pe15</string>
+    <string name="COL_SM_Pe16">Pe16</string>
+    <string name="COL_SM_Pe17">Pe17</string>
+    <string name="COL_SM_Pe18">Pe18</string>
+    <string name="COL_SM_Pe19">Pe19</string>
+    <string name="COL_SM_Pe20">Pe20</string>
+    <string name="COL_SM_Pe21">Pe21</string>
+    <string name="COL_SM_Pe22">Pe22</string>
+    <string name="COL_SM_Pe23">Pe23</string>
+    <string name="COL_SM_Pe24">Pe24</string>
+    <string name="COL_SM_Pe25">Pe25</string>
+    <string name="COL_SM_Pe26">Pe26</string>
+    <string name="COL_SM_Pe27">Pe27</string>
+    <string name="COL_SM_Pe28">Pe28</string>
+    <string name="COL_SM_Pe29">Pe29</string>
+    <string name="COL_SM_Pe30">Pe30</string>
+    <string name="COL_SM_Pe31">Pe31</string>
+    <string name="COL_SM_Pe32">Pe32</string>
+    <string name="COL_SM_Pe33">Pe33</string>
+    <string name="COL_SM_Pe34">Pe34</string>
+    <string name="COL_SM_Pe35">Pe35</string>
+    <string name="COL_SM_Pe36">Pe36</string>
+    <string name="COL_SM_Pe37">Pe37</string>
+    <string name="COL_SM_Pe38">Pe38</string>
+    <string name="COL_SM_Pe39">Pe39</string>
+    <string name="COL_SM_Pe40">Pe40</string>
+    <string name="COL_SM_Pe41">Pe41</string>
+    <string name="COL_SM_Pe42">Pe42</string>
+    <string name="COL_SM_Pe43">Pe43</string>
+    <string name="COL_SM_Pe44">Pe44</string>
+    <string name="COL_SM_Pe45">Pe45</string>
+    <string name="COL_SM_Pe46">Pe46</string>
+    <string name="COL_SM_Pe47">Pe47</string>
+    <string name="COL_SM_Pe48">Pe48</string>
+    <string name="COL_SM_Pe49">Pe49</string>
+    <string name="COL_SM_Pe50">Pe50</string>
+
+    <!--Sole Measurement Status flags-->
+    <integer name="MEASUREMENT_SYNCED_WITH_SERVER">1</integer>
+    <integer  name="MEASUREMENT_NOT_SYNCED_WITH_SERVER">0</integer>
+
+</resources>

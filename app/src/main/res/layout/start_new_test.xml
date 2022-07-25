@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:text="@string/time_now">
+            </TextView>
+
+            <TextClock
+                android:id="@+id/simpleDigitalClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+        </Space>
+
+        <TextView
+            android:id="@+id/test_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </Space>
+
+        <Button
+            android:id="@+id/start_stop"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="8dp"
+            android:drawableBottom="@drawable/start_img"
+            android:paddingBottom="26dp"
+            android:paddingTop="26dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/start_stop_btn"
+            android:text="@string/start" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        </Space>
+
+        <TextView
+            android:id="@+id/timeDiff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

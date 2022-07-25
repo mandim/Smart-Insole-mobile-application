@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b8e749f-21e3-4986-bcea-0b9406bc931a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/insoleTable.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/model/Datam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/model/RootPostModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/model/Sesion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/model/SessionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/model/SessionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/ApiInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/SessionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/utils/NotifyingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/utils/ThreadCompleteListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleBaseCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleBluetooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleConnectStateParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleGattCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleIndicateCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleLruHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleMtuChangedCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleNotifyCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleReadCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleRssiCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleScanAndConnectCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleScanCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleScanPresenterImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleScanRuleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleScanState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleWriteCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/BleWriteState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/ConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/DeviceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/GattException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/HexUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/MultipleBluetoothController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/ObserverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/ObserverManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/OtherException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/ServiceListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/SplitWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestScanBleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/mBleScanPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/rotate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_operation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_operation1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_device.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_characteric_operation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_characteristic_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_characteristic_operation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_service_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_characteric_operation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_characteric_operation_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_characteric_operation_et.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/insoletable.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-land/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/database/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/GetLogoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/GetLogoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/PostJsonRequestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/http_client/PostJsonRequestQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/login/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/login/SharedPrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/login/SharedPrefManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/login/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/login/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/LeftSamplingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/LeftSamplingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/JSONPacketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/JSONPacketManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/ScanBleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/ScanBleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_ble.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan_ble.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="202QYhnSVajxFqKnikhcowuqIIt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Program Files (x86)/Android/android-sdk/sources/android-28/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/s.kontogiannis/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0/51035a8f6342c20d4d8f242d100e6f25e0c271ac/material-1.4.0-sources.jar!/com/google/android/material/textfield/MaterialAutoCompleteTextView.java_SELECTED" value="MaterialAutoCompleteTextView" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="info.smartinsole.sqlite.view" />
+      <recent name="info.smartinsole.sqlite.http_client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Christodoulakis\Projects\SmartInsole\Smart-Insole-mobile-application" />
+      <recent name="D:\Christodoulakis\Projects\SmartInsole\Smart-Insole-mobile-application\app\src\main\java\info\smartinsole\sqlite\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s.kontogiannis\Smart-Insole-mobile-application\app\src\main\res\raw" />
+      <recent name="C:\Users\s.kontogiannis\Smart-Insole-mobile-application\app" />
+    </key>
+    <key name="android.template.1676913059">
+      <recent name="info.smartinsole.sqlite.view" />
+      <recent name="info.smartinsole.sqlite.login" />
+    </key>
+    <key name="android.template.-273691863">
+      <recent name="info.smartinsole.sqlite.view" />
+    </key>
+    <key name="android.template.-1638654741">
+      <recent name="info.smartinsole.sqlite.view" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="info.smartinsole.sqlite.view" />
+    </key>
+    <key name="android.template.1517048740">
+      <recent name="info.smartinsole.sqlite.view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="info.smartinsole.sqlite.database.model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Smart-Insole-mobile-application.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b8e749f-21e3-4986-bcea-0b9406bc931a" name="Default Changelist" comment="" />
+      <created>1635240251867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635240251867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>300</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>321</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/CharacteristicOperationFragment.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>337</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>341</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>396</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>397</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>392</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>402</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>398</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>531</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>1652</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>820</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>865</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>598</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>601</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>459</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>387</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>389</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>526</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/view/TestFragment.java</url>
+          <line>407</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/info/smartinsole/sqlite/services/RightSamplingService.java</url>
+          <line>337</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="response.rawResponse" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">SmartInSole</string>
+    <string name="activity_title_home">Soles</string>
+    <string name="msg_no_soles">No sole input found!</string>
+    <string name="lbl_new_sole_title">New Sole data</string>
+    <string name="lbl_edit_sole_title">Edit Sole data</string>
+    <string name="hint_enter_sole">Enter your sole data!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="base_url">"http://195.130.121.81:3000"</string>
+    <string name="connect">Connect</string>
+
+    <!-- URLs -->
+    <string name="login_url">"/api/auth/login"</string>
+    <string name="results_post_url">"/api/device/results"</string>
+    <string name="results_put_url">"/api/device/results"</string>
+    <string name="logout_url">"/api/auth/logout"</string>
+
+    <string name="post_sessions_url">"/api/sessions"</string>
+    <string name="register_patient_url">"/api/patients/register"</string>
+    <string name="patient_id_url">"/api/patients/${selectedPair.patientId}/api-key"</string>
+    <string name="refresh_token_url">"/api/auth/token/refresh"</string>
+    <string name="pair_patient_sole_url">"/api/patients/pair"</string>
+    <string name="register_sole_url">/api/insoles/register</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="menu_one">HeatMap</string>
+    <string name="menu_two">Line Chart</string>
+    <string name="menu_three">Test</string>
+    <string name="menu_four">History</string>
+
+    <string name="txtheatmap">Footprint HeatMap</string>
+    <string name="line_chart_info">Line Chart Data</string>
+    <string name="load">Load Data</string>
+    <string name="title_activity_login">Login to SmartInSole</string>
+    <string name="title_activity_register">Register Activity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="user_exists">User already logged in</string>
+    <string name="sign_in_facebook">Sign in with Facebook</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="logout_text">Sign out</string>
+    <string name="register">Register</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="name">Name</string>
+    <string name="not_register">Not Register?</string>
+    <string name="pass_recover">Forgot your password?</string>
+    <string name="txttest">TESTS HISTORY</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="history">Sole ID: </string>
+    <string name="time_now">Current Time:</string>
+    <string name="tug">TUG</string>
+    <string name="Balance">Balance</string>
+    <string name="free_walking">Free Walking</string>
+    <string name="select_test">Select Test</string>
+    <string name="msg_no_tests">No tests found!</string>
+    <string name="action_sync">Sync Data</string>
+
+    <string name="PREF_NAME">UserSession</string>
+    <string name="KEY_USERID">userId</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="createaccount">Create account</string>
+    <string name="gologin">Already a user</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_basic">basicActivity</string>
+    <string name="register_patient">Register Patient</string>
+    <string name="register_sole">Register sole</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mac">MAC:</string>
+    <string name="service">Service</string>
+    <string name="type">Service type (main service)</string>
+
+    <string name="notifyTitle">Prompt</string>
+    <string name="gpsNotifyMsg">Current mobile phone scanning Bluetooth needs to open the positioning function</string>
+    <string name="setting">Go to settings</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="start_scan">Start scanning</string>
+    <string name="stop_scan">Stop scanning</string>
+    <string name="expand_search_settings">Expand search settings</string>
+    <string name="retrieve_search_settings">Retrieve search settings</string>
+    <string name="connect_fail">connection failed</string>
+    <string name="active_disconnected">disconnect</string>
+    <string name="disconnected">Connection disconnect</string>
+    <string name="please_open_blue">Please turn on Bluetooth first</string>
+    <string name="select_operation_type">Select operation type</string>
+    <string name="characteristic">Characteristic</string>
+    <string name="data_changed">Data changes:</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="open_notification">Open notification</string>
+    <string name="close_notification">Close notification</string>
+    <string name="service_list">Service list</string>
+    <string name="characteristic_list">Characteristic list</string>
+    <string name="console">Console</string>
+    <string name="scan_setting">Below, you can configure the conditions that you need to scan the device, which can be empty</string>
+    <string name="setting_name">Enter a broadcast name for Bluetooth devices, separated by English commas</string>
+    <string name="setting_mac">Enter Bluetooth device MAC</string>
+    <string name="setting_uuid">Enter Bluetooth device UUID, separated by commas in English</string>
+    <string name="input_hex">Please enter the HEX format command</string>
+    <string name="connected">Connected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter">Enter</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+
+</resources>
